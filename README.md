@@ -6,7 +6,6 @@ Sebelum Anda Melanjutkan
 * Sertakan Fields gradle proyek Anda sendiri dalam file "google services.json". Tanpa itu aplikasi tidak akan berjalan.<br>
 * Hasilkan dan tambahkan tempat Anda sendiri [kunci] api (https://developers.google.com/places/web-service/intro) dalam manifes   yang sesuai.<br>
 * Aktifkan info masuk google dan masuk dengan email dari dasbor firebase Anda.
-* Deploy firebase cloud functions provided in [cloud-functions](https://github.com/Kashish-Sharma/TheNetwork-open/tree/master/cloud-functions) directory.
 
 Description
 ---------
