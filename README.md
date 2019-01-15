@@ -7,7 +7,7 @@ Sebelum Anda Melanjutkan
 * Hasilkan dan tambahkan tempat Anda sendiri [kunci] api (https://developers.google.com/places/web-service/intro) dalam manifes   yang sesuai.<br>
 * Aktifkan info masuk google dan masuk dengan email dari dasbor firebase Anda.
 
-Description
+Deskripsi
 ---------
 YukKajian adalah aplikasi sekaligus obrolan blog. Ini sepenuhnya dibangun menggunakan firebase.
 Pengguna dapat memposting, berkomentar,dan menyukai, juga pengguna dapat mengirim permintaan ikuti untuk terhubung dengan orang.
