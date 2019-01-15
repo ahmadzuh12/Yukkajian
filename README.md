@@ -1,4 +1,6 @@
-# Sebelum Anda Melanjutkan
+#YukKajian
+
+/ Sebelum Anda Melanjutkan
 
 Aplikasi ini masih dalam pengembangan sehingga ini mungkin terdapat masih banyak Bug atau Error.
 Sertakan Fields gradle proyek Anda sendiri dalam file "google services.json". Tanpa itu aplikasi tidak akan berjalan
