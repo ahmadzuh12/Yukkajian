@@ -14,3 +14,12 @@ Pengguna dapat memposting, berkomentar,dan menyukai, juga pengguna dapat mengiri
 Pengguna dapat membuat acara dan juga menyiapkan peta jalan acara.
 Pagination untuk data realtime juga termasuk dalam obrolan, blog, dan acara.
 Pemberitahuan juga didukung setiap kali pengguna mengirim pesan obrolan atau mengikuti permintaan.
+
+
+Screenshots
+----------
+* **Home**<br>
+<p float="left">
+<img src="https://github.com/ahmadphonakec/Yukkajian/blob/master/Screenshot_20190126-021416.png" alt="Login" width="200dp" height="400dp">          
+<img src="https://github.com/ahmadphonakec/Yukkajian/blob/master/Screenshot_20190126-021507.png" alt="Detail Blog" width="200dp" height="400dp">
+</p>
