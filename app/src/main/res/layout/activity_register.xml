@@ -12,7 +12,10 @@
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/register_textview"
@@ -20,9 +23,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
-        android:text="Welcome,\nsign up and enjoy\nout app."
+        android:text="@string/welcomeregister"
         android:textColor="#CCCCCC"
-        android:textSize="24dp"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/register_toolbar" />
 
@@ -30,62 +33,68 @@
         android:id="@+id/register_email"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/register_background_edittext"
         android:ems="10"
-        android:hint="Email"
+        android:hint="@string/emailregister"
         android:inputType="textEmailAddress"
         android:paddingStart="10dp"
+        android:paddingEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register_textview" />
+        app:layout_constraintTop_toBottomOf="@+id/register_textview"
+        android:importantForAutofill="no" tools:targetApi="o" />
 
     <EditText
         android:id="@+id/register_password"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/register_background_edittext"
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/passwordregister"
         android:inputType="textPassword"
         android:paddingStart="10dp"
+        android:paddingEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register_email" />
+        app:layout_constraintTop_toBottomOf="@+id/register_email"
+        android:importantForAutofill="no" tools:targetApi="o"/>
 
     <EditText
         android:id="@+id/register_confirm_password"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/register_background_edittext"
         android:ems="10"
-        android:hint="Confirm Password"
+        android:hint="@string/passwordconfirm"
         android:inputType="textPassword"
         android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:autofillHints="@string/passwordconfirm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register_password" />
+        app:layout_constraintTop_toBottomOf="@+id/register_password" tools:targetApi="o" />
 
     <Button
         android:id="@+id/register_create_account"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/register_background_button"
-        android:text="Sign Up"
+        android:text="@string/signup"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -107,7 +116,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="already have account? Login"
+        android:text="@string/alreadyaccount"
         android:textAllCaps="false"
         android:textColor="@color/gray"
         app:layout_constraintBottom_toBottomOf="parent"

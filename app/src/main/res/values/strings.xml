@@ -2,4 +2,24 @@
     <string name="app_name"></string>
     <string name="drawer_open">Drawer Open</string>
     <string name="drawer_close">Drawer Close</string>
+
+
+    <!--Login Activity String-->
+    <string name="welcomelogin">Welcome Home</string>
+    <string name="emaillogin">Email</string>
+    <string name="passwordlogin">Kata sandi</string>
+    <string name="login">Login</string>
+    <string name="forgetpass">Lupa Kata sandi</string>
+    <string name="blmpunyakun">Belum Punya Akun</string>
+    <string name="loginor">Atau Login Dengan</string>
+    <string name="googlelogin">Google Login</string>
+
+    <!--Register Activity String-->
+    <string name="welcomeregister">Welcome,\nsign up and enjoy\nout app.</string>
+    <string name="emailregister">Email</string>
+    <string name="passwordregister">Kata Sandi</string>
+    <string name="passwordconfirm">Konfirmasi Kata Sandi</string>
+    <string name="signup">Daftar</string>
+    <string name="alreadyaccount">Sudah punya akun? Login</string>
+
 </resources>
