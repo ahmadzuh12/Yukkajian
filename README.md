@@ -20,14 +20,14 @@ Screenshots
 ----------
 * **Home**<br>
 <p float="left">
-<img src="https://github.com/ahmadphonakec/Yukkajian/blob/master/Screenshot_20190126-021513.png" alt="Login" width="200dp" height="400dp">          
-<img src="https://github.com/ahmadphonakec/Yukkajian/blob/master/Screenshot_20190126-021507.png" alt="Detail Blog" width="200dp" height="400dp">
+<img src="https://github.com/ahmadzuh/Yukkajian/blob/master/screenshot/Screenshot_20190126-021507.png" alt="Login" width="200dp" height="400dp">          
+<img src="https://github.com/ahmadzuh/Yukkajian/blob/master/screenshot/Screenshot_20190126-021513.png" alt="Detail Blog" width="200dp" height="400dp">
 </p>
 
 * **Login dan Register**<br>
 <p float="left">
-<img src="https://github.com/ahmadphonakec/Yukkajian/blob/master/Screenshot_20190126-031025.png" alt="Events" width="200dp" height="400dp">          
-<img src="https://github.com/ahmadphonakec/Yukkajian/blob/master/Screenshot_20190126-021416.png" alt="Event detail" width="200dp" height="400dp">
+<img src="https://github.com/ahmadzuh/Yukkajian/blob/master/screenshot/Screenshot_20190126-031025.png" alt="Events" width="200dp" height="400dp">          
+<img src="https://github.com/ahmadzuh/Yukkajian/blob/master/screenshot/Screenshot_20190126-021416.png" alt="Event detail" width="200dp" height="400dp">
 </p>
 
 
