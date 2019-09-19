@@ -31,7 +31,7 @@ Screenshots
 </p>
 
 
-External Library yang digunakan
+Eksternal Library yang digunakan
 ----------
 * [Image cropper](https://github.com/ArthurHub/Android-Image-Cropper)
 * [Image compressor](https://github.com/zetbaitsu/Compressor)
